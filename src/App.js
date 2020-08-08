@@ -1,10 +1,10 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import NavBar from "./components/NavBar/NavBar";
+import NavBar from "./components/NavBar/NavBar.jsx";
 import { Container } from "reactstrap";
-import AboutMe from "./pages/AboutMe/AboutMe";
-import Projects from "./pages/Projects/Projects";
-import Contact from "./pages/Contact/Contact";
+import AboutMe from "./pages/AboutMe/AboutMe.jsx";
+import Projects from "./pages/Projects/Projects.jsx";
+import Contact from "./pages/Contact/Contact.jsx";
 
 function App() {
   return (
