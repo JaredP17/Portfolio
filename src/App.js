@@ -8,7 +8,6 @@ import Contact from "./pages/Contact/Contact";
 
 function App() {
   return (
-    <Router>
       <div className="App">
         <NavBar />
         <Container>
@@ -17,7 +16,6 @@ function App() {
           <Route path="/contact" component={Contact} />
         </Container>
       </div>
-    </Router>
   );
 }
 
