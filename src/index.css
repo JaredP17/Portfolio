@@ -38,6 +38,7 @@ h1 {
 
 .card img {
   height: 20vh;
+  border-bottom: solid black 1px;
 }
 
 .about-me img {
