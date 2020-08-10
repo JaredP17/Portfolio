@@ -15,9 +15,9 @@ function About() {
               </div>
               <p className="card-text about-me">
                 I am from Atlanta, GA and recently graduated from Auburn
-                University with a degree in Computer Science. Ready to dive into
-                the world of web development (Full Stack)! I like spending my
-                free time at the lake and DIY projects (home or tech). Please
+                University with a degree in Computer Science. I am ready to dive into
+                the world of software development (Full Stack)! I like spending my
+                free time at the lake and working on DIY projects (home and/or tech). Please
                 checkout my projects and contact pages for more information!
               </p>
             </article>
