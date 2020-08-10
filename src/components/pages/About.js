@@ -1,17 +1,30 @@
 import React from "react";
+import headshot from "../../assets/images/auburn_headshot.jpg";
 
 function About() {
   return (
-    <div>
-      <h1>About Me</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <main className="container">
+      <div className="row justify-content-center">
+        <div className="col-sm-6">
+          <div className="card mt-5">
+            <article className="card-body about-me">
+              <h1 className="card-title">About Me</h1>
+              <hr />
+              <div>
+                <img src={headshot} alt="My Headshot" />
+              </div>
+              <p className="card-text about-me">
+                I am from Atlanta, GA and recently graduated from Auburn
+                University with a degree in Computer Science. Ready to dive into
+                the world of web development (Full Stack)! I like spending my
+                free time at the lake and DIY projects (home or tech). Please
+                checkout my projects and contact pages for more information!
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
   );
 }
 
