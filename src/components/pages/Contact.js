@@ -1,24 +1,46 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import resume from "../../assets/resume.pdf"
 
 function Contact(props) {
   return (
-    <div>
-      <h1>Contact</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
+    <main className="container">
+      <div className="row justify-content-center">
+        <div className="col-8 col-md-6 col-lg-5 col-xl-4">
+          <div className="card mt-5">
+            <article className="card-body about-me">
+              <h1 className="card-title">Contact</h1>
+              <hr />
+              <div className="list-group">
+                <a
+                  href="mailto:jaredporter.dev@icloud.com"
+                  className="list-group-item list-group-item-action"
+                >
+                  E-mail
+                </a>
+                <a href="https://github.com/jaredp17"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="list-group-item list-group-item-action">
+                  GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/jared-r-porter/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="list-group-item list-group-item-action">
+                  LinkedIn
+                </a>
+                <a href={resume} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="list-group-item list-group-item-action">
+                  Resume
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
   );
 }
 
