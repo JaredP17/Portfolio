@@ -1,3 +1,8 @@
+body {
+background-color: white;
+background-image: url(./assets/images/bg-image.png);
+}
+
 .navbar-light .navbar-brand {
   color: white;
 }
