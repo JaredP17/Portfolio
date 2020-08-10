@@ -5,7 +5,7 @@ function About() {
   return (
     <main className="container">
       <div className="row justify-content-center">
-        <div className="col-sm-6">
+        <div className="col-md-10 col-lg-8 col-xl-7">
           <div className="card mt-5">
             <article className="card-body about-me">
               <h1 className="card-title">About Me</h1>
