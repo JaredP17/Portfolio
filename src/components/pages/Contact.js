@@ -15,25 +15,25 @@ function Contact(props) {
                   href="mailto:jaredporter.dev@icloud.com"
                   className="list-group-item list-group-item-action"
                 >
-                  E-mail
+                  E-mail<i class="fa fa-envelope" aria-hidden="true"></i>
                 </a>
                 <a href="https://github.com/jaredp17"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="list-group-item list-group-item-action">
-                  GitHub
+                  GitHub<i class="fa fa-github" aria-hidden="true"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/jared-r-porter/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="list-group-item list-group-item-action">
-                  LinkedIn
+                  LinkedIn<i class="fa fa-linkedin-square" aria-hidden="true"></i>
                 </a>
                 <a href={resume} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="list-group-item list-group-item-action">
-                  Resume
+                  Resume<i class="fa fa-file-text" aria-hidden="true"></i>
                 </a>
               </div>
             </article>

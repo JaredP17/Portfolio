@@ -66,6 +66,11 @@ h1 {
   left: 0;
 }
 
+.fa {
+    float: right;
+    font-size: x-large;
+}
+
 footer {
   color: white;
   background-color: #666666;
