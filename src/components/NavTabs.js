@@ -19,7 +19,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/blog"
+          to="/projects"
           className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}
         >
           Projects
