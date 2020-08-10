@@ -1,21 +1,21 @@
 import React from "react";
-import { Route } from "react-router-dom";
-import NavBar from "./components/NavBar/NavBar.jsx";
-import { Container } from "reactstrap";
-import AboutMe from "./pages/AboutMe/AboutMe.jsx";
-import Projects from "./pages/Projects/Projects.jsx";
-import Contact from "./pages/Contact/Contact.jsx";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import NavTabs from "./components/NavTabs";
+import About from "./components/pages/About";
+import Projects from "./components/pages/Projects"
+import Contact from "./components/pages/Contact";
 
 function App() {
   return (
-      <div className="App">
-        <NavBar />
-        <Container>
-          <Route exact path="/" component={AboutMe} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
-        </Container>
+    <Router>
+      <div>
+        <NavTabs />
+        <Route exact path="/" component={About} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/blog" component={Projects} />
+        <Route path="/contact" component={Contact} />
       </div>
+    </Router>
   );
 }
 
