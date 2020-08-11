@@ -8,7 +8,7 @@ A ReactJS refactor of my bootstrap portfolio.
 Check out my portfolio on [heroku](https://jrp-react-portfolio.herokuapp.com/).
 
 ## Preview
-![About Me](./Assets/Screenshots/about-desktop.png)
+![About Me](./src/assets/images/preview.png)
 
 
 ## Contributing
