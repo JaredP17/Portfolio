@@ -5,10 +5,10 @@ function Projects() {
   return (
     <main className="container-fluid">
       <div className="row justify-content-center">
-        <div className="col-12 col-md-10 col-xl-9">
+        <div className="col-sm-8 col-md">
           <div className="card mt-5">
             <article className="card-body">
-              <h1 className="card-title">Portfolio</h1>
+              <h1 className="card-title">Projects</h1>
               <hr />
 
               <div className="row row-cols-1 row-cols-md-3 portfolio">
