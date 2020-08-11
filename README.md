@@ -1,9 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # React Portfolio
 
 ## Description 
-A ReactJS refactor of my bootstrap portfolio. 
+A ReactJS refactor of my bootstrap portfolio. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 Check out my portfolio on [heroku](https://jrp-react-portfolio.herokuapp.com/).
 
