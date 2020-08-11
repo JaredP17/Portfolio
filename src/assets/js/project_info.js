@@ -2,7 +2,8 @@ import remoteIsland from "../../assets/thumbnails/remote-island.png"
 import memoryMaker from "../../assets/thumbnails/memory-maker.png"
 import passwdGen from "../../assets/thumbnails/passwd-generator.png"
 import weatherDash from "../../assets/thumbnails/weather-dashboard.png"
-import NoteTaker from "../../assets/thumbnails/note-taker.png"
+import noteTaker from "../../assets/thumbnails/note-taker.png"
+import employeeDir from "../../assets/thumbnails/employee-directory.png"
 
 const projectInfo = [
   {
@@ -19,6 +20,13 @@ const projectInfo = [
     repo: "https://github.com/JaredP17/Memory-Maker",
     url: "https://memory-maker.herokuapp.com/",
     image: memoryMaker,
+  },
+  {
+    title: "Employee Directory",
+    description: "For this assignment, I had to create an employee directory with React. This assignment required me to break up the application's UI into components, manage component state, and respond to user events. Employee data was generated with the randomuser.me API.",
+    repo: "https://github.com/JaredP17/employee-directory",
+    url: "https://jaredp17.github.io/employee-directory/",
+    image: employeeDir
   },
   {
     title: "Password Generator",
@@ -39,7 +47,7 @@ const projectInfo = [
     description: "An application that can be used to write, save, and delete notes. This application uses an express backend and saves/retrieves note data to/from a JSON file.",
     repo: "https://github.com/JaredP17/gt-hw-note-taker",
     url: "https://gt-hw-note-taker-jrp.herokuapp.com/",
-    image: NoteTaker,
+    image: noteTaker,
   },
 ];
 
