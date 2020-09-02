@@ -2,7 +2,6 @@ import remoteIsland from "../../assets/thumbnails/remote-island.png";
 import memoryMaker from "../../assets/thumbnails/memory-maker.png";
 import passwdGen from "../../assets/thumbnails/passwd-generator.png";
 import weatherDash from "../../assets/thumbnails/weather-dashboard.png";
-import noteTaker from "../../assets/thumbnails/note-taker.png";
 import employeeDir from "../../assets/thumbnails/employee-directory.png";
 import bookunity from "../../assets/thumbnails/bookunity.png";
 
