@@ -14,11 +14,17 @@ function About() {
                 <img src={headshot} alt="My Headshot" />
               </div>
               <p className="card-text about-me">
-                I am from Atlanta, GA and recently graduated from Auburn
-                University with a degree in Computer Science. I am ready to dive into
-                the world of software development (Full Stack)! I like spending my
-                free time at the lake and working on DIY projects (home and/or tech). Please
-                checkout my projects and contact pages for more information!
+                Hi, my name is Jared! I am a full-stack software developer from
+                Atlanta, GA. With a background in Computer Science, I am adept
+                in OOP principles and committed to writing clean, reusable code.
+                Known amongst my peers for strong attention to
+                detail/responsiveness and a grit to resolve complex coding
+                challenges in both individual and team environments. Currently looking for an entry-level position.
+              </p>
+              <p className="card-text about-me">
+                In my spare time, I like going to the lake lake and working on
+                DIY projects (home and/or tech). Please checkout my projects and
+                contact pages for more information!
               </p>
             </article>
           </div>
