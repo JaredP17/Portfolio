@@ -1,10 +1,10 @@
 body {
-background-color: white;
-background-image: url(./assets/images/bg-image.png);
+  background-color: white;
+  background-image: url(./assets/images/bg-image.png);
 }
 
 header {
-    border-bottom: solid 1px #4baaa5;
+  border-bottom: solid 1px #4baaa5;
 }
 
 .navbar-light .navbar-brand {
@@ -55,10 +55,18 @@ h1 {
 .about-me ul {
   list-style: none;
 }
+@media screen and (max-height: 812px) {
+  .portfolio {
+    max-height: 50vh;
+    overflow-y: auto;
+  }
+}
 
-.portfolio {
-  height: 60vh;
-  overflow-y: auto;
+@media screen and (min-height: 813px) {
+  .portfolio {
+    max-height: 65vh;
+    overflow-y: auto;
+  }
 }
 
 .proj-description {
@@ -72,8 +80,8 @@ h1 {
 }
 
 .fa {
-    float: right;
-    font-size: x-large;
+  float: right;
+  font-size: x-large;
 }
 
 footer {
