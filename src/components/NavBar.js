@@ -32,9 +32,9 @@ function NavBar() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link
-                to="/about"
+                to="/"
                 className={
-                  location.pathname === "/about"
+                  location.pathname === "/"
                     ? "nav-link active"
                     : "nav-link"
                 }
