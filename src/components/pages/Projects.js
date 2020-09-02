@@ -13,7 +13,7 @@ function Projects() {
 
               <div className="row row-cols-1 row-cols-md-3 portfolio">
                 {projectInfo.map((project) => (
-                  <div className="col col-12 col-md-6 col-xl-4 mb-4">
+                  <div className="col col-12 col-md-6 col-xl-4 mb-4" key={project.title}>
                     <div className="card h-100">
                       <img
                         src={project.image}
