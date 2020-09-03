@@ -22,7 +22,7 @@ function About() {
                 challenges in both individual and team environments. Currently looking for an entry-level position.
               </p>
               <p className="card-text about-me">
-                In my spare time, I like going to the lake lake and working on
+                In my spare time, I like going to the lake and working on
                 DIY projects (home and/or tech). Please checkout my projects and
                 contact pages for more information!
               </p>
