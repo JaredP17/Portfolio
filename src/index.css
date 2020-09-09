@@ -41,6 +41,10 @@ h1 {
   border-bottom: solid black 1px;
 }
 
+.about-me {
+  overflow-y: auto;
+}
+
 .about-me img {
   float: left;
   margin-right: 15px;
@@ -49,23 +53,26 @@ h1 {
 }
 
 .about-me p {
-  text-align: justify;
+  text-align: left;
 }
 
 .about-me ul {
   list-style: none;
 }
+
+.portfolio {
+  overflow-y: auto;
+}
+
 @media screen and (max-height: 812px) {
-  .portfolio {
+  .content {
     max-height: 50vh;
-    overflow-y: auto;
   }
 }
 
 @media screen and (min-height: 813px) {
-  .portfolio {
+  .content {
     max-height: 65vh;
-    overflow-y: auto;
   }
 }
 
