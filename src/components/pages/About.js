@@ -19,13 +19,13 @@ function About() {
                   developer from Atlanta, GA. With a background in Computer
                   Science, I am adept in OOP principles and committed to writing
                   clean, reusable code. Known amongst my peers for strong
-                  attention to detail/responsiveness and a grit to resolve
+                  attention to detail, responsiveness, and a grit to resolve
                   complex coding challenges in both individual and team
                   environments. Currently looking for an entry-level position.
                 </p>
                 <p className="card-text">
-                  &emsp;In my spare time, I like going to the lake and
-                  working on DIY projects (home and/or tech). Please checkout my
+                  &emsp;In my spare time, I like going to the lake and working
+                  on DIY projects (home and/or tech). Please checkout my
                   projects and contact pages for more information!
                 </p>
               </div>
