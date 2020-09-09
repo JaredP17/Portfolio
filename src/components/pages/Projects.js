@@ -5,7 +5,7 @@ function Projects() {
   return (
     <main className="container-fluid">
       <div className="row justify-content-center">
-        <div className="col-sm-8 col-md">
+        <div className="col-sm-8 col-md-10">
           <div className="card mt-5">
             <article className="card-body">
               <h1 className="card-title">Projects</h1>

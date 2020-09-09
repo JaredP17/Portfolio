@@ -10,9 +10,11 @@ function NavBar() {
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link to="/" className="navbar-brand col-8">
+        <div className="col-8">
+        <Link to="/" className="navbar-brand">
           <span>Jared R. Porter</span>
         </Link>
+        </div>
 
         <button
           className="navbar-toggler"
