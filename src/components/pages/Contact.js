@@ -5,7 +5,7 @@ function Contact(props) {
   return (
     <main className="container">
       <div className="row justify-content-center">
-        <div className="col-8 col-md-6 col-lg-5 col-xl-4">
+        <div className="col-10 col-sm-8 col-md-6 col-lg-5 col-xl-4">
           <div className="card mt-5">
             <article className="card-body about-me">
               <h1 className="card-title">Contact</h1>
@@ -28,6 +28,12 @@ function Contact(props) {
                 rel="noopener noreferrer"
                 className="list-group-item list-group-item-action">
                   LinkedIn<i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/jaredporter_dev"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="list-group-item list-group-item-action">
+                  Twitter<i className="fa fa-twitter" aria-hidden="true"></i>
                 </a>
                 <a href={resume} 
                 target="_blank" 
