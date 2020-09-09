@@ -11,22 +11,23 @@ function About() {
               <h1 className="card-title">About Me</h1>
               <hr />
               <div className="content about-me">
-              <div>
-                <img src={headshot} alt="My Headshot" />
-              </div>
-              <p className="card-text">
-                Hi, my name is Jared! I am a full-stack software developer from
-                Atlanta, GA. With a background in Computer Science, I am adept
-                in OOP principles and committed to writing clean, reusable code.
-                Known amongst my peers for strong attention to
-                detail/responsiveness and a grit to resolve complex coding
-                challenges in both individual and team environments. Currently looking for an entry-level position.
-              </p>
-              <p className="card-text">
-                In my spare time, I like going to the lake and working on
-                DIY projects (home and/or tech). Please checkout my projects and
-                contact pages for more information!
-              </p>
+                <div>
+                  <img src={headshot} alt="My Headshot" />
+                </div>
+                <p className="card-text">
+                  &emsp;Hi, my name is Jared! I am a full-stack software
+                  developer from Atlanta, GA. With a background in Computer
+                  Science, I am adept in OOP principles and committed to writing
+                  clean, reusable code. Known amongst my peers for strong
+                  attention to detail/responsiveness and a grit to resolve
+                  complex coding challenges in both individual and team
+                  environments. Currently looking for an entry-level position.
+                </p>
+                <p className="card-text">
+                  &emsp;In my spare time, I like going to the lake and
+                  working on DIY projects (home and/or tech). Please checkout my
+                  projects and contact pages for more information!
+                </p>
               </div>
             </article>
           </div>

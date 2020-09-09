@@ -52,10 +52,6 @@ h1 {
   width: 200px;
 }
 
-.about-me p {
-  text-align: left;
-}
-
 .about-me ul {
   list-style: none;
 }
@@ -73,6 +69,12 @@ h1 {
 @media screen and (min-height: 813px) {
   .content {
     max-height: 65vh;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .about-me p {
+    text-align: justify;
   }
 }
 
