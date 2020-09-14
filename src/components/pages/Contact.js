@@ -11,6 +11,12 @@ function Contact(props) {
               <h1 className="card-title">Contact</h1>
               <hr />
               <div className="list-group">
+              <a
+                  href="tel:+17708800826"
+                  className="list-group-item list-group-item-action"
+                >
+                  Phone<i className="fa fa-phone" aria-hidden="true"></i>
+                </a>
                 <a
                   href="mailto:jaredporter.dev@icloud.com"
                   className="list-group-item list-group-item-action"
