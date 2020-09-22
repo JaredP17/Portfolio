@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../assets/resume.pdf"
+import resume from "../../assets/Resume-JRP-Dev.pdf"
 
 function Contact(props) {
   return (
