@@ -50,8 +50,8 @@ const projectInfo = [
     title: "Weather Dashboard",
     description:
       "A weather dashboard that features dynamically updated HTML and CSS and uses the OpenWeather API to retrieve weather data for cities. Type in a city and see the current and 5-Day forecasts. City searches are persistent.",
-    repo: "https://github.com/JaredP17/gt-hw6-weather-dashboard",
-    url: "https://jaredp17.github.io/gt-hw6-weather-dashboard/",
+    repo: "https://github.com/JaredP17/weather-dashboard",
+    url: "https://jaredp17.github.io/weather-dashboard/",
     image: weatherDash,
   },
 ];
