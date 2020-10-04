@@ -15,13 +15,13 @@ function About() {
                   <img src={headshot} alt="My Headshot" />
                 </div>
                 <p className="card-text">
-                  &emsp;Hi, my name is Jared! I am a full-stack software
-                  developer from Atlanta, GA. With a background in Computer
+                  &emsp;Hi, my name is Jared! I am a software
+                  developer from Atlanta, GA. With a B.S. in Computer
                   Science, I am adept in OOP principles and committed to writing
                   clean, reusable code. Known amongst my peers for strong
                   attention to detail, responsiveness, and a grit to resolve
                   complex coding challenges in both individual and team
-                  environments. Currently looking for an entry-level position.
+                  environments.
                 </p>
                 <p className="card-text">
                   &emsp;In my spare time, I like going to the lake and working
