@@ -28,6 +28,9 @@ function About() {
                   on DIY projects (home and/or tech). Please checkout my
                   projects and contact pages for more information!
                 </p>
+                <p className="card-text">
+                  Current Position: Jr. Software Developer at <a href="https://www.inductivehealth.com/">InductiveHealth Informatics</a>
+                </p>
               </div>
             </article>
           </div>
